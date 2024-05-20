@@ -8,7 +8,7 @@ PRESET_BASE: "mainnet"
 # * 'mainnet' - there can be only one
 # * 'prater' - testnet
 # Must match the regex: [a-z0-9\-]
-CONFIG_NAME: "mainnet"
+CONFIG_NAME: 'prater'
 
 # Transition
 # ---------------------------------------------------------------
@@ -86,9 +86,9 @@ PROPOSER_SCORE_BOOST: 40
 # Deposit contract
 # ---------------------------------------------------------------
 # Ethereum PoW Mainnet
-DEPOSIT_CHAIN_ID: 1
-DEPOSIT_NETWORK_ID: 1
-DEPOSIT_CONTRACT_ADDRESS: 0x00000000219ab540356cBB839Cbe05303d7705Fa
+DEPOSIT_CHAIN_ID: 32382
+DEPOSIT_NETWORK_ID: 32382
+DEPOSIT_CONTRACT_ADDRESS: 0x123463a4b065722e99115d6c222f267d9cabb524
 
 # Mainnet preset - Altair
 
